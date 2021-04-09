@@ -64,25 +64,4 @@ class MainActivity : AppCompatActivity() {
         tiPhoneNumber?.setText(phoneNumber)
         tiPhoneNumber?.setSelection(phoneNumber.length)
     }
-
-//    private fun addNumber(string: String) {
-//        val replaceIndex = tiPhoneNumber?.text?.toString()?.indexOf('x') ?: return
-//
-//        if (replaceIndex == -1) {
-//            formattedPhoneNumber?.let {
-//                tiPhoneNumber?.setText(it)
-//                tiPhoneNumber?.setSelection(it.length)
-//            }
-//            return
-//        }
-//
-//        formattedPhoneNumber = StringBuilder(string).apply {
-//            deleteCharAt(replaceIndex)
-//            insert(replaceIndex, string.last())
-//            deleteCharAt(this.length - 1)
-//        }.toString()
-//
-//        tiPhoneNumber?.setText(formattedPhoneNumber)
-//        tiPhoneNumber?.setSelection(formattedPhoneNumber?.length!! - 1)
-//    }
 }
