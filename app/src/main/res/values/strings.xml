@@ -10,4 +10,5 @@
     <string name="phoneNumberMask">xxx-xxx-xxxx</string>
     <string name="samplePassword">12345678</string>
     <string name="sampleAddress">150 Green St, New York, NY 10012</string>
+    <string name="editPhoto">Edit Photo</string>
 </resources>
