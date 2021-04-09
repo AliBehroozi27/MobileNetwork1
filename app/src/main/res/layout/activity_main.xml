@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/scrollViewPaddingBottom"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/layoutPaddingBottom">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnMenu"
@@ -146,11 +146,11 @@
             android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
             android:layout_marginTop="@dimen/textFieldMarginTop"
             android:hint="@string/homeAddress"
-            app:layout_constraintEnd_toEndOf="parent"
             app:endIconCheckable="true"
             app:endIconDrawable="@drawable/ic_location"
             app:endIconMode="custom"
             app:endIconTint="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tfPhoneNumber">
 

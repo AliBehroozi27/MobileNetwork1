@@ -3,5 +3,5 @@
     <dimen name="textFieldMarginTop">15dp</dimen>
     <dimen name="textFieldMarginHorizontal">20dp</dimen>
     <dimen name="textFieldMarginTop2">50dp</dimen>
-    <dimen name="scrollViewPaddingBottom">20dp</dimen>
+    <dimen name="layoutPaddingBottom">20dp</dimen>
 </resources>
