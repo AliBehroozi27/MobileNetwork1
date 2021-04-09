@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
         android:layout_marginTop="@dimen/textFieldMarginTop"
-        android:hint="Full Name"
+        android:hint="@string/fullName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="John Emma" />
+            android:text="@string/sampleFullName" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
         android:layout_marginTop="@dimen/textFieldMarginTop"
-        android:hint="Email"
+        android:hint="@string/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tfFullName">
@@ -39,7 +39,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="emmas@gmail.com" />
+            android:text="@string/sampleEmail" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
         android:layout_marginTop="@dimen/textFieldMarginTop"
-        android:hint="Password"
+        android:hint="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tfEmail">
@@ -57,7 +57,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="12345678" />
+            android:text="@string/samplePassword" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,7 +67,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
         android:layout_marginTop="@dimen/textFieldMarginTop"
-        android:hint="Phone Number"
+        android:hint="@string/phoneNumber"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tfPassword">
@@ -75,7 +75,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="09123554455" />
+            android:text="@string/samplePhoneNumber" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
         android:layout_marginTop="@dimen/textFieldMarginTop"
-        android:hint="Home Address"
+        android:hint="@string/homeAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tfPhoneNumber">
@@ -93,7 +93,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="150 Green St, New York, NY 10012" />
+            android:text="@string/sampleAddress" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
