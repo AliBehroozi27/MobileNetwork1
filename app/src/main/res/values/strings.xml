@@ -7,7 +7,7 @@
     <string name="homeAddress">Home Address</string>
     <string name="sampleFullName">John Emma</string>
     <string name="sampleEmail">emmas@gmail.com</string>
-    <string name="samplePhoneNumber">09123554455</string>
+    <string name="phoneNumberMask">xxx-xxx-xxxx</string>
     <string name="samplePassword">12345678</string>
     <string name="sampleAddress">150 Green St, New York, NY 10012</string>
 </resources>
