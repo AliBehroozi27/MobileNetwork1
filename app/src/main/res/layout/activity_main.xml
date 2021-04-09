@@ -60,7 +60,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tfFullName"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
             android:layout_marginTop="@dimen/textFieldMarginTop2"
@@ -79,7 +79,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tfEmail"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
             android:layout_marginTop="@dimen/textFieldMarginTop"
@@ -99,7 +99,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tfPassword"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
             android:layout_marginTop="@dimen/textFieldMarginTop"
@@ -120,7 +120,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tfPhoneNumber"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
             android:layout_marginTop="@dimen/textFieldMarginTop"
@@ -141,7 +141,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tfHomeAddress"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/textFieldMarginHorizontal"
             android:layout_marginTop="@dimen/textFieldMarginTop"
