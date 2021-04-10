@@ -1,4 +1,9 @@
-# MobileNetwork1
+# MobileNetworks992 - 1st Project
+
+## Team Members:
+Mobin Dariush Hamedani | 96521191
+
+Ali Behroozi-Nia | 96521101
 
 ## App
 <img src="https://user-images.githubusercontent.com/34644374/114218345-8c144600-997e-11eb-89e6-4794e9d6a6b1.jpg" width="440" height="850">
